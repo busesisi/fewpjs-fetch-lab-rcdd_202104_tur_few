@@ -8,7 +8,7 @@ function fetchBooks(){
   })
   .then(function(json) {
     console.log(renderBooks(json));
-    
+
   });
   // To pass the tests, don't forget to return your fetch!
 
